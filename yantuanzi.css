@@ -1,0 +1,145 @@
+.cls {
+  clear: both;
+}
+
+.container {
+	position: relative;
+}
+
+.grass {
+  position: relative;
+  top: 13px;
+  left: 238px;
+  transform: rotate(-5deg);
+}
+
+
+.grass .left {
+	position: absolute;
+	left:0;
+	top: 0;
+  width: 106px;
+  height: 52px;
+  background-color: #a0da8c;
+  border-top-left-radius: 75px 50px;
+  border-bottom-left-radius: 75px 50px;
+  border-top-right-radius: 100px 48px;
+  border-bottom-right-radius: 100px 48px;
+  border: 9px solid #58322f;
+  transform: rotate(23.55deg);
+}
+
+.grass .right {
+	position: absolute;
+  left: 125px;
+  top: 4px;
+  width: 106px;
+  height: 52px;
+  background-color: #a0da8c;
+  border-top-right-radius: 75px 50px;
+  border-bottom-right-radius: 75px 50px;
+  border-top-left-radius: 100px 48px;
+  border-bottom-left-radius: 100px 48px;
+  border: 9px solid #58322f;
+  transform: rotate(-45.55deg);
+  margin-left: -22px;
+  margin-top: -14px;
+}
+
+.grass .hair {
+	position: absolute;
+	left: -1.5px;
+    top: 62px;
+  width: 9px;
+  height: 50px;
+  background-color: #58322f;
+  margin-left: 115px;
+  margin-top: -14px;
+}
+
+.head {
+	position: relative;
+	width: 839px;
+	height: 660px;
+	border: 9px solid #58322f;
+	border-radius: 100%;
+	top: 150px;
+}
+
+.head .left-eye {
+	width: 80px;
+	height: 80px;
+	background-color: #58322f;
+	border-radius: 100%;
+	position: absolute;
+	top: 244px;
+	left: 252px;
+}
+
+.head .right-eye {
+	width: 80px;
+	height: 80px;
+	background-color: #58322f;
+	border-radius: 100%;
+	position: absolute;
+	top: 244px;
+	left: 500px;
+}
+
+.nose {
+	position: relative;
+	top: 299px;
+	left: 350px;
+	width: 150px;
+	height: 100px;
+	overflow: hidden;
+}
+
+.nose .left {
+	position: absolute;
+	width: 86px;
+	height: 43px;
+	border-radius: 100%;
+	border: 9px solid #58322f;
+	transform: rotate(-56deg);
+}
+
+.nose .right {
+	position: absolute;
+	left: 33px;
+	width: 86px;
+	height: 43px;
+	border-radius: 100%;
+	border: 9px solid #58322f;
+	transform: rotate(56deg);
+}
+
+.nose .shadow {
+	position: absolute;
+	top: -142px;
+	left: -15px;
+	background-color: white;
+	width: 164px;
+	height: 194px;
+	border-radius: 100%;
+}
+
+.left-cheek {
+	position: absolute;
+	top: 300px;
+	left: 170px;
+	width: 88px;
+	height: 54px;
+	background-color: #ffa06f;
+	border-radius: 100%;
+}
+
+.right-cheek {
+	position: absolute;
+	top: 300px;
+	left: 577px;
+	width: 88px;
+	height: 54px;
+	background-color: #ffa06f;
+	border-radius: 100%;
+}
